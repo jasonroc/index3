@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+
+/* main ==================== */
+.text-shadow{
+    text-shadow: 2px 2px 4px #777676;
+}
+
+.navbar-brand{
+    font-family: 'Spicy Rice', cursive;
+}
+.main{
+   
+    background: url("./img/confortableDesk.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0 100px 0;
+    font-family: 'Spicy Rice', cursive;
+}
+
+.focus{
+    height: 150px;
+}
+
+.title{
+    font-size: 60px;
+}
+
+
+/* jobs ====================*/
+.jobs{
+    height: 700;
+    background: url("./img/bethany-legg-9248.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+/* mobile version */
+
+@media only screen and(max-width: 400px){
+        .main{
+            padding: 60px 0 60px 0;
+        }
+        .title{
+            font-size: 55px;
+        }
+}
+
